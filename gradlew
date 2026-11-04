@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+# Gradle wrapper launcher script
+APP_HOME=$(cd "$(dirname "$0")" && pwd)
+exec gradle "$@"
